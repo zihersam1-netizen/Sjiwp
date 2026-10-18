@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Servis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<body>
+
+    <header class="container">
+        <nav>
+            <ul>
+                <li><strong>PC Servis</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#pocetna">Početna</a></li>
+                <li><a href="#usluge">Usluge</a></li>
+                <li><a href="#o-nama">O nama</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="pocetna" class="container">
+            <hgroup>
+                <h1>PC Servis</h1>
+                <p>Brzo i pouzdano rješenje za vaše računalo.</p>
+            </hgroup>
+            <p>Popravak računala, nadogradnja komponenti i uklanjanje virusa na jednom mjestu.</p>
+            <a href="#usluge" role="button">Pogledaj usluge</a>
+        </section>
+
+        <hr>
+
+        <section id="usluge" class="container">
+            <h2>Naše usluge</h2>
+
+            <div class="grid">
+                <article>
+                    <img id="slika-popravak" src="https://www.pcshop.hr/images/news/servis-racunala.jpg" alt="Popravak računala">
+                    <h3>Popravak računala</h3>
+                    <p>Dijagnostika i popravak stolnih računala i prijenosnika.</p>
+                </article>
+
+                <article>
+                    <img id="slika-nadogradnja" src="https://servis.racunala.hr/wp-content/uploads/2022/01/racunala-hr-pc-servis.jpg" alt="Računalne komponente">
+                    <h3>Nadogradnja komponenti</h3>
+                    <p>Ugradnja RAM memorije, SSD diskova i drugih komponenti.</p>
+                </article>
+
+                <article>
+                    <img id="slika-virusi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbsx3ey8t6XXJ5-Rg4zSE1iKWcBmNhhDsOr-Yxfy7Niw&s=10" alt="Prijenosno računalo">
+                    <h3>Uklanjanje virusa</h3>
+                    <p>Uklanjanje zlonamjernih programa i zaštita vaših podataka.</p>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="o-nama" class="container">
+            <h2>Zašto odabrati nas?</h2>
+            <div class="grid">
+                <article>
+                    <h3>Brzina</h3>
+                    <p>Brzo pronalazimo uzrok problema.</p>
+                </article>
+                <article>
+                    <h3>Povoljnost</h3>
+                    <p>Kvalitetna usluga po pristupačnim cijenama.</p>
+                </article>
+                <article>
+                    <h3>Pouzdanost</h3>
+                    <p>Pažljivo postupamo s vašim računalom i podacima.</p>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="kontakt" class="container">
+            <h2>Kontaktirajte nas</h2>
+            <p>Pošaljite upit za servis računala.</p>
+
+            <form action="mailto:gabriel.marjancic@skole.hr" method="post" enctype="text/plain">
+                <label for="ime">Ime i prezime</label>
+                <input type="text" id="ime" name="Ime" placeholder="Vaše ime" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="Email" placeholder="vas@email.com" required>
+
+                <label for="usluga">Usluga</label>
+                <select id="usluga" name="Usluga" required>
+                    <option value="" selected disabled>Odaberite uslugu</option>
+                    <option value="Popravak računala">Popravak računala</option>
+                    <option value="Nadogradnja komponenti">Nadogradnja komponenti</option>
+                    <option value="Uklanjanje virusa">Uklanjanje virusa</option>
+                    <option value="Ostalo">Ostalo</option>
+                </select>
+
+                <label for="poruka">Poruka</label>
+                <textarea id="poruka" name="Poruka" placeholder="Opišite problem..." required></textarea>
+
+                <button type="submit">Pošalji upit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="container">
+        <hr>
+        <p><strong>PC Servis</strong></p>
+        <p>Gabriel Marjančić</p>
+        <p>SSBJJ</p>
+        <p>Telefon: <a href="tel:+385913211234">+385 91 321 1234</a></p>
+        <p>E-mail: <a href="mailto:gabriel.marjancic@skole.hr">gabriel.marjancic@skole.hr</a></p>
+        <p>
+            <a href="https://www.instagram.com/">Instagram</a> |
+            <a href="https://www.facebook.com/">Facebook</a>
+        </p>
+        <small>&copy; 2026. PC Servis. Sva prava pridržana.</small>
+    </footer>
+
+</body>
+</html>
